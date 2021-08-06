@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7821f318-a4cc-4268-b959-8949120ff295" name="Default Changelist" comment="added chap3 기본 자료형까지">
+    <list default="true" id="7821f318-a4cc-4268-b959-8949120ff295" name="Default Changelist" comment="added chap3 참조 자료형까지">
+      <change afterPath="$PROJECT_DIR$/array-like_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_vs_object.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,30 +40,40 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test">
+  <component name="RunManager" selected="Node.js.array-like_object.js">
     <configuration name="test" type="JavascriptDebugType" uri="http://localhost:63342/practice-js/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="primitive_type.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/primitive_type.js" working-dir="$PROJECT_DIR$">
+    <configuration name="array-like_object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-like_object.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="property.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/property.js" working-dir="$PROJECT_DIR$">
+    <configuration name="array_delete.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_delete.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="refer_type.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/refer_type.js" working-dir="$PROJECT_DIR$">
+    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="array_property.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_property.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="array_vs_object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_vs_object.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.test" />
-      <item itemvalue="Node.js.primitive_type.js" />
-      <item itemvalue="Node.js.refer_type.js" />
-      <item itemvalue="Node.js.property.js" />
+      <item itemvalue="Node.js.array.js" />
+      <item itemvalue="Node.js.array_vs_object.js" />
+      <item itemvalue="Node.js.array_property.js" />
+      <item itemvalue="Node.js.array_delete.js" />
+      <item itemvalue="Node.js.array-like_object.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.property.js" />
-        <item itemvalue="Node.js.refer_type.js" />
-        <item itemvalue="Node.js.primitive_type.js" />
+        <item itemvalue="Node.js.array-like_object.js" />
+        <item itemvalue="Node.js.array_delete.js" />
+        <item itemvalue="Node.js.array_property.js" />
+        <item itemvalue="Node.js.array_vs_object.js" />
+        <item itemvalue="Node.js.array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -68,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1628051109279</updated>
       <workItem from="1628051110463" duration="24000" />
-      <workItem from="1628051158776" duration="7320000" />
+      <workItem from="1628051158776" duration="8198000" />
+      <workItem from="1628140110257" duration="338000" />
+      <workItem from="1628140557313" duration="8007000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1628051283726</created>
@@ -91,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628061960124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added chap3 참조 자료형까지">
+      <created>1628065180574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628065180574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +140,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="added chap2까지" />
     <MESSAGE value="added chap3 기본 자료형까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chap3 기본 자료형까지" />
+    <MESSAGE value="added chap3 참조 자료형까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chap3 참조 자료형까지" />
   </component>
 </project>
