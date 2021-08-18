@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7821f318-a4cc-4268-b959-8949120ff295" name="Default Changelist" comment="added chap3 참조 자료형까지">
-      <change afterPath="$PROJECT_DIR$/array-like_object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_vs_object.js" afterDir="false" />
+    <list default="true" id="7821f318-a4cc-4268-b959-8949120ff295" name="Default Changelist" comment="added chap3 배열까지 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -33,14 +28,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.array-like_object.js">
+  <component name="RunManager" selected="Node.js.function.js">
     <configuration name="test" type="JavascriptDebugType" uri="http://localhost:63342/practice-js/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -50,30 +45,30 @@
     <configuration name="array_delete.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_delete.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="array_property.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_property.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="array_vs_object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_vs_object.js" working-dir="$PROJECT_DIR$">
+    <configuration name="function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/function.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.test" />
-      <item itemvalue="Node.js.array.js" />
-      <item itemvalue="Node.js.array_vs_object.js" />
       <item itemvalue="Node.js.array_property.js" />
       <item itemvalue="Node.js.array_delete.js" />
       <item itemvalue="Node.js.array-like_object.js" />
+      <item itemvalue="Node.js.function.js" />
+      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.function.js" />
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.array-like_object.js" />
         <item itemvalue="Node.js.array_delete.js" />
         <item itemvalue="Node.js.array_property.js" />
-        <item itemvalue="Node.js.array_vs_object.js" />
-        <item itemvalue="Node.js.array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +83,11 @@
       <workItem from="1628051110463" duration="24000" />
       <workItem from="1628051158776" duration="8198000" />
       <workItem from="1628140110257" duration="338000" />
-      <workItem from="1628140557313" duration="8007000" />
+      <workItem from="1628140557313" duration="8101000" />
+      <workItem from="1629102375543" duration="1213000" />
+      <workItem from="1629108456259" duration="3920000" />
+      <workItem from="1629181961122" duration="3008000" />
+      <workItem from="1629248708717" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1628051283726</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628065180574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added chap3 배열까지 끝">
+      <created>1628235208995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628235208995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +147,7 @@
     <MESSAGE value="added chap2까지" />
     <MESSAGE value="added chap3 기본 자료형까지" />
     <MESSAGE value="added chap3 참조 자료형까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chap3 참조 자료형까지" />
+    <MESSAGE value="added chap3 배열까지 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chap3 배열까지 끝" />
   </component>
 </project>
